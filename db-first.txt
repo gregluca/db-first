@@ -1,0 +1,13 @@
+-- TABELLA -- AUTO -- 
+
+- | id_auto ---- INT ---- PRIMARY_KEY ---- AUTOINCREMENT
+- | marca ---- VARCHAR(255) ---- NOTNULL 
+- | modello ---- VARCHAR(255) ---- NOTNULL
+- | anno_immatricolazione ---- TIMESTAMP ---- NULL
+- | chilometraggio ---- VARCHAR(255) ---- NULL
+- | targa ---- VARCHAR(7) ---- NOTNULL ---- UNIQUE
+- | carburante ---- VARCHAR(50) ---- NOTNULL ----  
+- | prezzo ---- DECIMAL(9,2) ---- NOTNULL 
+- | sconto ---- DECIMAL(5,2) - NOTNULL ---- DEFAULT(0)
+- | disponibile ---- BOOLEAN ---- NULL ---- DEFEAULT(TRUE)
+- | descrizione ---- TEXT ---- NULL
